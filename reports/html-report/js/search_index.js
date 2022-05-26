@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Merve Aydin Appium Test Ozdilekteyim App":["specs/TestSpec.html"]}};

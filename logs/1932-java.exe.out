@@ -1,0 +1,63 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 968milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 968"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 55572"}
+{"logLevel":"info","message":"Listening on port:55572"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'BaseStep.randomItemPick' and 'BaseStep.randomItemPick'"}
+{"logLevel":"debug","message":"Found {} xpath'li rastgele element seç. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.isElementVisibleByID' and 'BaseStep.isElementVisibleByID'"}
+{"logLevel":"debug","message":"Found {} ID'li element görünür mü kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.swipeUpI' and 'BaseStep.swipeUpI'"}
+{"logLevel":"debug","message":"Found Sayfayı yukarı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.isElementVisibleByXpath' and 'BaseStep.isElementVisibleByXpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li element görünür mü kontrol et. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.sendKeyElementByid' and 'BaseStep.sendKeyElementByid'"}
+{"logLevel":"debug","message":"Found {} id'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickElementByid' and 'BaseStep.clickElementByid'"}
+{"logLevel":"debug","message":"Found {} id'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.clickElementByxpath' and 'BaseStep.clickElementByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.waitForsecond' and 'BaseStep.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'BaseStep.geriDon' and 'BaseStep.geriDon'"}
+{"logLevel":"debug","message":"Found {} kez geriye git. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} ID'li element görünür mü kontrol et. : public void isElementVisibleByID(String id) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} id'li elemente {} değerini yaz : public void sendKeyElementByid(String Key, String keyword) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} xpath'li element görünür mü kontrol et. : public void isElementVisibleByXpath(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} xpath'li rastgele element seç. : public void randomItemPick(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSayfayı yukarı kaydır : public void swipeUpI()"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente tıkla : public void clickElementByxpath(String Key) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} id'li elemente tıkla : public void clickElementByid(String Key) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} kez geriye git. : public void geriDon(ınt sayi) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} kadar bekle : public void waitForsecond(ınt second) throws InterruptedException"}
+Lokalde Android  test ayağa kalktı 
+May 26, 2022 9:50:16 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} ID'li element görünür mü kontrol et.' using 'class BaseStep.isElementVisibleByID"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} ID'li element görünür mü kontrol et.' using 'class BaseStep.isElementVisibleByID"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} xpath'li element görünür mü kontrol et.' using 'class BaseStep.isElementVisibleByXpath"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class BaseStep.clickElementByxpath"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class BaseStep.clickElementByxpath"}
+{"logLevel":"debug","message":"Executing 'Sayfayı yukarı kaydır' using 'class BaseStep.swipeUpI"}
+{"logLevel":"debug","message":"Executing 'Sayfayı yukarı kaydır' using 'class BaseStep.swipeUpI"}
+{"logLevel":"debug","message":"Executing '{} xpath'li rastgele element seç.' using 'class BaseStep.randomItemPick"}
+{"logLevel":"debug","message":"Executing '{} ID'li element görünür mü kontrol et.' using 'class BaseStep.isElementVisibleByID"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} ID'li element görünür mü kontrol et.' using 'class BaseStep.isElementVisibleByID"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente {} değerini yaz' using 'class BaseStep.sendKeyElementByid"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente {} değerini yaz' using 'class BaseStep.sendKeyElementByid"}
+{"logLevel":"debug","message":"Executing '{} kez geriye git.' using 'class BaseStep.geriDon"}
+{"logLevel":"debug","message":"Executing '{} xpath'li rastgele element seç.' using 'class BaseStep.randomItemPick"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente tıkla' using 'class BaseStep.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} id'li elemente {} değerini yaz' using 'class BaseStep.sendKeyElementByid"}

@@ -1,0 +1,51 @@
+
+# Uygulamayı çalıştır ve sayfa göründü mü kontrol et.
+* "tv_startShoppingStore" ID'li element görünür mü kontrol et.
+
+# Anasayfa butonuna tıkla ve sayfanın açıldığını doğrula.
+* "tv_startShoppingStore" id'li elemente tıkla
+* "relLayMic" ID'li element görünür mü kontrol et.
+
+# Kategoriler sayfasını aç ve sayfanın açıldığını doğrula.
+* "nav_categories" id'li elemente tıkla
+* "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][1]" xpath'li element görünür mü kontrol et.
+
+# Kadın kategorisine tıkla.
+* "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" xpath'li elemente tıkla
+
+# Pantolon kategorisine tıkla.
+* "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][10]" xpath'li elemente tıkla
+
+# İki kere sayfayı yukarı kaydır.
+* Sayfayı yukarı kaydır
+* Sayfayı yukarı kaydır
+
+# Rastgele ürün seç ve ürün detay sayfası açılmış mı kontrol et.
+* "//*[@class = 'androidx.cardview.widget.CardView']" xpath'li rastgele element seç.
+* "relLayAddCartBtn" ID'li element görünür mü kontrol et.
+
+# Favoriler butonuna tıkla ve giriş sayfası açıldı mı kontrol et.
+* "imgFav" id'li elemente tıkla
+* "btnLogin" ID'li element görünür mü kontrol et.
+
+# Giriş bilgilerini eposta ve şifre kutularına gir ve 2 kere geri tuşuna bas.
+* "etEposta" id'li elemente "merve@merveaydin.com" değerini yaz
+* "etPassword" id'li elemente "merve" değerini yaz
+* "2" kez geriye git.
+
+# Rastgele ürün seç.
+* "//*[@class = 'androidx.cardview.widget.CardView']" xpath'li rastgele element seç.
+
+# Ürünü Sepete Ekle
+* "tvInSizeItem" id'li elemente tıkla
+* "relLayAddCartBtn" id'li elemente tıkla
+
+# Doğru giriş bilgileriyle giriş yap.
+* "etEposta" id'li elemente "merveaydin0212@gmail.com" değerini yaz
+* "etPassword" id'li elemente "merve123" değerini yaz
+* "btnLogin" id'li elemente tıkla
+
+# Bir sayfa geri gel ve ürünü sepete ekle
+* "1" kez geriye git.
+* "tvInSizeItem" id'li elemente tıkla
+* "relLayAddCartBtn" id'li elemente tıkla
